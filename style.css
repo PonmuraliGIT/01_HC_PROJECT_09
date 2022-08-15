@@ -307,3 +307,134 @@ padding-left:0;
   .footer-logo{
     width:56px;
   }
+  
+  @media screen and (max-width:768px) {
+    /* header {
+      grid-template-columns: 1fr;
+    } */
+    header nav{
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      color:white;
+      font-size:0.6rem;
+      justify-content: center;
+      /* padding-right:24px; */
+      padding-right:0px;
+      margin-right:8px; 
+      order:2;      
+    }
+    .nav-item-active {
+    
+      padding : 2px 8px;
+      font-size:0.3rem;
+      height:47%;
+    }
+ .hero-img {
+
+  margin-left:8px;
+ }
+    .header-image {
+      width:50%;
+      position:absolute;
+      top:0;
+      right:10%;    
+    }
+    .logodiv{
+      padding:16px;   
+    }
+    .logodiv img{
+      width:80px;
+    }
+    .header-text {
+      font-size:0.8rem;
+      
+      padding:16px;
+    }
+    .header-text h2 {
+      font-size:1rem;
+    }
+    .companies {
+      justify-content: center;
+     
+    }
+    .company-items {
+      font-size: 0.8rem; 
+  }
+  .api {
+    margin:24px;
+  }
+  .api-heading {
+    font-size:1rem;
+    margin:16px 0;
+    }
+    .cards {
+    flex-wrap: wrap;
+    }
+    .blog-heading h1{
+      font-size:1.2rem;
+    }
+    .blog-cards {
+ flex-direction: column;
+ margin:0 24px;
+ gap:32px;
+    }
+
+    .faq-section,.download-section,.footer-section {
+    flex-direction: column;
+    }
+    .footer-right-logos {
+      margin:16px;
+      justify-content: flex-start;
+  }
+  }
+
+  @media screen and (max-width:400px) {
+    header{    
+      padding:8px;
+      grid-template-columns: 1fr;
+    }
+    .header-image {
+      width: 50%;
+      position: relative;
+     margin-left:16px;
+  }
+  .companies {
+    justify-content: center;
+    margin-left:8px;
+    column-gap:8px;
+    font-size:0.3rem;
+  }
+  form {
+    display:flex;
+    flex-direction:column;
+  }
+  .download-email input {
+    padding: 8px 16px;
+    background-color: rgb(211, 211, 252);
+    border-radius: 24px;
+    border: none;
+    color: black;
+    font-size:0.5rem;
+    width:100%;
+    display:inline-block;
+}
+  .download-email button {
+    padding: 8px 16px;
+    background-color: rgb(41, 41, 252);
+    border-radius: 24px;
+    border: none;
+    position: absolute;
+    right: 20%;
+    color: white;
+    font-size:0.5rem;
+}
+  }
+
+  @media screen and (min-width:768px) and (max-width:1200px) {
+    .header-image {
+      width: 50%;
+   
+     margin-top:24px;
+    }
+  }
